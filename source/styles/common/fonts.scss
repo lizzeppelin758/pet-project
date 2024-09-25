@@ -1,0 +1,4 @@
+/* здесь подключите шрифты */
+
+@include font-face("NotoSerif", 400, normal, url("../../fonts/noto-serif/NotoSerif-Regular.woff2") format("woff2"), url("../../fonts/noto-serif/NotoSerif-Regular.ttf") format("ttf"));
+@include font-face("NotoSans", 400, normal, url("../../fonts/noto-sans/NotoSans-Regular.woff2") format("woff2"), url("../../fonts/noto-sans/NotoSans-Regular.ttf") format("ttf"));

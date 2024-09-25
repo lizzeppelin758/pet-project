@@ -1,0 +1,30 @@
+.article {
+  padding: 0 0 14px;
+  border-radius: 10px;
+  border: 1px solid $base-background-color;
+  width: 280px;
+}
+
+.article__image {
+  width: 280px;
+  height: 120px;
+  object-fit: cover;
+  object-position: 0 25%;
+
+  margin-bottom: 8px;
+}
+
+.article__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.article__title {
+  margin: 0 auto 8px;
+}
+
+.article__description {
+  margin: 0 auto;
+  padding: 0 5px;
+  text-align: center;
+}

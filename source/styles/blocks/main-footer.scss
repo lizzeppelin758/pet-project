@@ -1,0 +1,46 @@
+.main-footer {
+  width: 100%;
+  min-width: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 19px 20px 30px;
+
+  display: grid;
+  grid-template-areas: "logo logo" "social developers" "copyright developers";
+  gap: 18px;
+
+  color: $base-color-text;
+  background-color: $bright-background-color;
+}
+
+.main-footer__logo {
+  grid-area: logo;
+  justify-self: center;
+}
+
+.main-footer__social {
+  grid-area: social;
+  align-self: center;
+
+  margin: 0;
+}
+
+.main-footer__copyright {
+  grid-area: copyright;
+  align-self: self-end;
+  margin: 0;
+  font-size: 12px;
+}
+
+.main-footer__developers {
+  grid-area: developers;
+  place-self: self-end end;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  text-align: end;
+  font-size: 10px;
+  line-height: 14px;
+}

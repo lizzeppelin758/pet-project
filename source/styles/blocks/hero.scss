@@ -1,0 +1,31 @@
+.hero {
+  width: 100%;
+  min-width: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 30px 20px 45px;
+
+  background-color: $base-background-color;
+}
+
+.hero__gallery-container {
+  margin: 0 auto 25px;
+  width: fit-content;
+}
+
+.hero__title {
+  text-align: center;
+  margin: 0 auto 16px;
+}
+
+.hero__description {
+  margin: 0 15px 29px;
+  text-align: center;
+}
+
+.hero__buttons-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 27px;
+}
+

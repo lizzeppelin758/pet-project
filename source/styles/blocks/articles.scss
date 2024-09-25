@@ -1,0 +1,35 @@
+.articles {
+  width: 100%;
+  min-width: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 28px 20px 41px;
+
+  background-color: $soft-background-color;
+}
+
+.articles__title {
+  margin: 0 auto 26px;
+}
+
+.articles__description {
+  text-align: center;
+  margin: 0 auto 16px;
+}
+
+.articles__button {
+  margin-bottom: 16px;
+}
+
+.articles__list {
+  margin: 0 auto 16px;
+  padding: 0;
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 4));
+  gap: 20px;
+  align-items: self-start;
+  justify-content: center;
+}
+

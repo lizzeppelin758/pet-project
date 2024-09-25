@@ -1,0 +1,25 @@
+
+.logo:hover svg,
+.logo:focus-visible svg {
+  fill: $base-background-color;
+}
+
+.logo:active svg {
+  opacity: 0.3;
+  background-color: $bright-background-color;
+}
+
+
+@media (min-width: $tablet-width) {
+  .logo__image {
+    width: 163px;
+    height: 45px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .logo__image {
+    width: 226px;
+    height: 63px;
+  }
+}

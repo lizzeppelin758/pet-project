@@ -1,0 +1,31 @@
+.button {
+  padding: 8px;
+
+  font-family: $base-font;
+  font-size: 10px;
+  color: $title-light-color-text;
+  text-align: center;
+  text-decoration: none;
+
+  background-color: $accent-background-color;
+  border-style: none;
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: $bright-background-color;
+  }
+
+  &:active {
+    background-color: $bright-background-color;
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.button--light {
+  color: $title-color-text;
+  background-color: transparent;
+  border: 2px solid $bright-background-color;
+}
+
